@@ -1,0 +1,19 @@
+{
+    "properties": {
+        "destinations": {
+            "azureMonitorMetrics": {
+                "name": "azureMonitorMetrics-default"
+            }
+        },
+        "dataFlows": [
+            {
+                "streams": [
+                    "Microsoft-InsightsMetrics"
+                ],
+                "destinations": [
+                    "azureMonitorMetrics-default"
+                ]
+            }
+        ]
+    }
+}
